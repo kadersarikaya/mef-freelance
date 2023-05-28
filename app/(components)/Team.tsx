@@ -38,29 +38,43 @@ const Team = () => {
       name: "Eda ARIKAN",
       position: "Mütevelli Heyet Başkanı",
     },
-    
+    {
+      Image: Image1,
+      name: "Eda ARIKAN",
+      position: "Mütevelli Heyet Başkanı",
+    },
+    {
+      Image: Image2,
+      name: "Eda ARIKAN",
+      position: "Mütevelli Heyet Başkanı",
+    },
+    {
+      Image: Image3,
+      name: "Eda ARIKAN",
+      position: "Mütevelli Heyet Başkanı",
+    },
   ]
   return (
     <div className="">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-x-40 gap-y-20">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-x-40 gap-y-20">
         {team.map((item, index) => (
-        <div className="flex flex-col mx-auto">
-          <div className="bg-[#F5333F] bg-opacity-50 p-1 rounded-full w-56 h-56">
-            <a className='block bg-white p-1 rounded-full' >
-              <Image
-                alt='team'
-                src={item.Image}
-                className="rounded-full w-52 h-52" />
-            </a>
+          <div className="flex flex-col mx-auto">
+            <div className="bg-[#F5333F] bg-opacity-50 p-1 rounded-full w-56 h-56">
+              <a className='block bg-white p-1 rounded-full' >
+                <Image
+                  alt='team'
+                  src={item.Image}
+                  className="rounded-full w-52 h-52" />
+              </a>
+            </div>
+            <div className="pt-11 space-y-2.5 mx-auto text-center px-5">
+              <h3 className="text-xl font-semibold text-[#161616]">{item.name}</h3>
+              <p className="text-gray-500">{item.position}</p>
+            </div>
           </div>
-          <div className="pt-11 space-y-2.5 mx-auto text-center px-5">
-            <h3 className="text-xl font-semibold text-[#161616]">{item.name}</h3>
-            <p className="text-gray-500">{item.position}</p>
-          </div>
-        </div>
         ))}
       </div>
-      
+
     </div>
   );
 };
