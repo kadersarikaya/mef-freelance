@@ -30,13 +30,13 @@ const Slider = () => {
                     src={slides[currentIndex]}
                     className='w-full h-full bg-center bg-cover duration-200'
                 />
-                <div className='absolute text-white bottom-0 left-0 right-0 text-start px-24 py-[15%]'>
-                    <div className="bg-[#FF8E6C] px-1 py-1.5 inline-block rounded text-xs font-medium">
+                <div className='absolute flex flex-col space-y-3 items-start text-white bottom-0 left-0 right-0 text-start px-24 py-[15%]'>
+                    <div className="bg-[#FF8E6C] px-1 py-1.5 inline-block text-center rounded text-xs font-medium">
                         # Hashtag
                     </div>
-                    <h2 className="mt-3 font-semibold text-2xl">FAKÜLTELER</h2>
-                    <h1 className="mt-3 font-semibold text-6xl" >Mühendislik Fakültesi</h1>
-                    <p className='mt-3 text-base w-[75%]
+                    <h2 className="font-semibold text-2xl">FAKÜLTELER</h2>
+                    <h1 className="font-semibold text-6xl" >Mühendislik Fakültesi</h1>
+                    <p className='text-base w-[75%]
                     '>Geleceğin toplum yararına şekillendirilmesinde, mühendislik alanında verdiği eğitim-öğretim ve temel/uygulamalı araştırma çalışmalarıyla uluslararası bir odak olmak.</p>
                 </div>
             </div>
