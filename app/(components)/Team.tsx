@@ -58,7 +58,7 @@ const Team = () => {
     <div className="">
       <div className="grid grid-cols-2 md:grid-cols-3 gap-x-40 gap-y-20">
         {team.map((item, index) => (
-          <div className="flex flex-col mx-auto">
+          <div key={index} className="flex flex-col mx-auto">
             <div className="bg-[#F5333F] bg-opacity-50 p-1 rounded-full w-56 h-56">
               <a className='block bg-white p-1 rounded-full' >
                 <Image

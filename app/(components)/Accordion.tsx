@@ -1,6 +1,6 @@
 import React from "react";
 
-const AccordionInsaat = () => {
+const Accordion = () => {
   return (
     <div >
       <h1 className="text-lg w-[176px] text-[#002169] font-bold tracking-widest">İNŞAAT MÜHENDİSLİĞİ</h1>
@@ -154,4 +154,4 @@ const AccordionInsaat = () => {
   );
 };
 
-export default AccordionInsaat;
+export default Accordion;

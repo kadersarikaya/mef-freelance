@@ -5,7 +5,6 @@ import Hero1 from "../../assets/Hero (1).svg"
 
 import Image from "next/image";
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-import { RxDotFilled } from 'react-icons/rx';
 
 const Slider = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -28,25 +27,24 @@ const Slider = () => {
                 <Image
                     alt="Hero Image"
                     src={slides[currentIndex]}
-                    className='w-full h-full bg-center bg-cover duration-200'
+                    className='max-w-full h-auto bg-center bg-cover duration-200'
                 />
-                <div className='absolute flex flex-col space-y-3 items-start text-white bottom-0 left-0 right-0 text-start px-24 py-[15%]'>
+                <div className='absolute flex flex-col space-y-1 md:space-y-3 items-start text-white bottom-0 left-0 right-0 text-start md:px-24 px-8 justify-center py-6 sm:py-14 md:py-20 lg:py- 2xl:py-60'>
                     <div className="bg-[#FF8E6C] px-1 py-1.5 inline-block text-center rounded text-xs font-medium">
                         # Hashtag
                     </div>
-                    <h2 className="font-semibold text-2xl">FAKÜLTELER</h2>
-                    <h1 className="font-semibold text-6xl" >Mühendislik Fakültesi</h1>
-                    <p className='text-base w-[75%]
-                    '>Geleceğin toplum yararına şekillendirilmesinde, mühendislik alanında verdiği eğitim-öğretim ve temel/uygulamalı araştırma çalışmalarıyla uluslararası bir odak olmak.</p>
+                    <h2 className="font-semibold text-xl lg:text-2xl ">FAKÜLTELER</h2>
+                    <h1 className="font-semibold text-3xl lg:text-6xl " >Mühendislik Fakültesi</h1>
+                    <p className='text-sm md:text-base w-full md:w-[75%]'>Geleceğin toplum yararına şekillendirilmesinde, mühendislik alanında verdiği eğitim-öğretim ve temel/uygulamalı araştırma çalışmalarıyla uluslararası bir odak olmak.</p>
                 </div>
             </div>
             {/* Left Arrow */}
-            <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                <BsChevronCompactLeft onClick={prevSlide} size={30} />
+            <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-1 md:left-2 text-xl md:text-2xl rounded-full p-1 md:p-2 bg-black/20 text-white cursor-pointer'>
+                <BsChevronCompactLeft onClick={prevSlide} size={25} />
             </div>
             {/* Right Arrow */}
-            <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-                <BsChevronCompactRight onClick={nextSlide} size={30} />
+            <div className='hidden group-hover:block absolute top-[50%] right-1 md:right-2 -translate-x-0 translate-y-[-50%] text-xl md:text-2xl rounded-full p-1 md:p-2 bg-black/20 text-white cursor-pointer'>
+                <BsChevronCompactRight onClick={nextSlide} size={25} />
             </div>
         </div>
     );
