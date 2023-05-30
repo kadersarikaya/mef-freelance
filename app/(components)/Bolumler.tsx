@@ -9,7 +9,7 @@ import Card4 from "../../assets/Card (4).svg"
 function Bolumler() {
     return (
         <section className="md:px-24 px-8 py-7 md:py-14 flex h-full flex-col">
-            <h1 className="text-2xl md:text-4xl font-semibold pb-10">Mühendislik Fakültesi Bölümleri</h1>
+            <h1 className="text-2xl md:text-4xl font-semibold pb-6 md:pb-10">Mühendislik Fakültesi Bölümleri</h1>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-7">
                 <div className="relative group hover:cursor-pointer">
                     <Image
