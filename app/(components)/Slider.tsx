@@ -29,12 +29,12 @@ const Slider = () => {
                     src={slides[currentIndex]}
                     className='max-w-full h-auto bg-center bg-cover duration-200'
                 />
-                <div className='absolute flex flex-col space-y-1 md:space-y-3 items-start text-white bottom-0 left-0 right-0 text-start md:px-24 px-8 justify-center py-6 sm:py-14 md:py-20 lg:py- 2xl:py-60'>
-                    <div className="bg-[#FF8E6C] px-1 py-1.5 inline-block text-center rounded text-xs font-medium">
+                <div className='absolute flex flex-col md:space-y-1 lg:space-y-3 items-start text-white bottom-0 left-0 right-0 text-start md:px-24 px-8 justify-center py-2 sm:py-14 md:py-20 lg:py- 2xl:py-60'>
+                    <div className="bg-[#FF8E6C] hidden px-1 py-1.5 md:inline-block text-center rounded text-xs font-medium">
                         # Hashtag
                     </div>
-                    <h2 className="font-semibold text-xl lg:text-2xl ">FAKÜLTELER</h2>
-                    <h1 className="font-semibold text-3xl lg:text-6xl " >Mühendislik Fakültesi</h1>
+                    <h2 className="font-semibold text-lg md:text-xl lg:text-2xl ">FAKÜLTELER</h2>
+                    <h1 className="font-semibold text-2xl md:text-3xl lg:text-6xl " >Mühendislik Fakültesi</h1>
                     <p className='text-sm md:text-base w-full md:w-[75%]'>Geleceğin toplum yararına şekillendirilmesinde, mühendislik alanında verdiği eğitim-öğretim ve temel/uygulamalı araştırma çalışmalarıyla uluslararası bir odak olmak.</p>
                 </div>
             </div>
