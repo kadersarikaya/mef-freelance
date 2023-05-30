@@ -9,14 +9,14 @@ const About = () => {
           <h1 className="text-2xl md:text-4xl font-semibold pb-6 md:pb-10">Mühendislik Fakültesi Hakkında</h1>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">      
             <div className="flex flex-col lg:flex-col space-y-6 md:space-y-10">
-                <div className="flex flex-col space-y-4 border p-6 ">
+                <div className="flex flex-col space-y-4 border p-3 md:p-6">
                     <h2 className="text-xl md:text-2xl font-medium">Neden Mühendislik Fakültesi</h2>
                       <p className="text-sm font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat magna sit amet erat varius hendrerit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat magna sit amet erat varius hendrerit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat magna sit amet erat varius hendrerit.</p>
                     <div>
                         <button className="bg-[#F5333F] text-sm text-white py-2 px-4">Daha Fazla</button>
                     </div>
                 </div>
-                <div className="flex flex-col space-y-4 border p-6">
+                <div className="flex flex-col space-y-4 border p-3 md:p-6">
                       <h2 className="text-xl md:text-2xl font-medium">Akreditasyon</h2>
                       <p className="text-sm font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat magna sit amet erat varius hendrerit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat magna sit amet erat varius hendrerit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat magna sit amet erat varius hendrerit.</p>
                     <div>
