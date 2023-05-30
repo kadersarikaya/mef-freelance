@@ -58,24 +58,6 @@ function Bolumler() {
                         <p className="text-sm lg:text-base font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
-                <div className="relative group hover:cursor-pointer">
-                    <Image
-                        src={Card3} alt="dekan"
-                        className="object-cover max-w-full h-auto rounded-lg" />
-                    <div className="absolute group-hover:-translate-y-8 duration-300 text-white px-6 py-10 left-0 right-0 bottom-0 flex flex-col space-y-1.5">
-                        <h1 className="text-xl lg:text-3xl font-bold">İnşaat Mühendisliği</h1>
-                        <p className="text-sm lg:text-base font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div className="relative group hover:cursor-pointer">
-                    <Image
-                        src={Card4} alt="dekan"
-                        className="object-cover max-w-full h-auto rounded-lg" />
-                    <div className="absolute group-hover:-translate-y-8 duration-300 text-white px-6 py-10 left-0 right-0 bottom-0 flex flex-col space-y-1.5">
-                        <h1 className="text-xl lg:text-3xl font-bold">Makine Mühendisliği</h1>
-                        <p className="text-sm lg:text-base font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
             </div>
         </section>
     )
