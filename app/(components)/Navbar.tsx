@@ -5,9 +5,10 @@ import React, {useRef} from "react";
 interface Props {
   bolum?: string;
   color?: string;
+  url?: string;
 }
 
-const Navbar: React.FC<Props> = ({ bolum, color }) => {
+const Navbar: React.FC<Props> = ({ bolum, color, url }) => {
   const navRef = useRef<HTMLDivElement>(null);
 
   return (
@@ -15,7 +16,7 @@ const Navbar: React.FC<Props> = ({ bolum, color }) => {
       <div className="flex overflow-x-auto overflow-y-hidden" ref={navRef}>
         <ul className="flex whitespace-nowrap">
           <li>
-            <Link href={"/muhendislik"}>
+            <Link href={url? url : "/"}>
               <button
                 className={`py-2 md:py-4 pr-2 md:pr-4 pl-6 md:pl-12 bg-${color} text-white text-sm md:text-base duration-200 font-bold`}
               >
