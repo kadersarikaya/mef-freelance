@@ -18,7 +18,8 @@ const Navbar: React.FC<Props> = ({ bolum, color, url }) => {
           <li>
             <Link href={url? url : "/"}>
               <button
-                className={`py-2 md:py-4 pr-2 md:pr-4 pl-6 md:pl-12 bg-${color} text-white text-sm md:text-base duration-200 font-bold`}
+                style={{ backgroundColor: color }}
+                className={`py-2 md:py-4 pr-2 md:pr-4 pl-6 md:pl-12 text-white text-sm md:text-base duration-200 font-bold`}
               >
                 {bolum}
               </button>

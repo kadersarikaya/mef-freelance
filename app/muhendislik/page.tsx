@@ -7,7 +7,7 @@ import Bolumler from "../(components)/Bolumler";
 
 const page = () => {
   return <div>
-    <Navbar color={"[#F5333F]"} bolum={"MUHENDİSLİK FAKÜLTESİ"} />
+    <Navbar color={"#F5333F"} bolum={"MUHENDİSLİK FAKÜLTESİ"} />
     <Slider />
     <About />
     <Bolumler />
