@@ -52,7 +52,7 @@ const AccordionEgitim = () => {
                     <h1 className="text-base md:text-lg w-[176px] md:text-start text-center text-[#002169]  font-bold tracking-widest px-5 md:pt-0 pt-5">İNGİLİZCE
                         ÖĞRETMENLİĞİ</h1>
                 </div>
-                <div className="relative w-[350px] md:w-[200px] lg:w-[255px] overflow-hidden pt-3">
+                <div className="relative w-[150px] md:w-[200px] lg:w-[255px] overflow-hidden pt-3">
                     <input type="checkbox"
                         className="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer"
                     />

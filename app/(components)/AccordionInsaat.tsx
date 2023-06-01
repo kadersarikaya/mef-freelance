@@ -27,7 +27,7 @@ const Accordion = () => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="h-6 w-6 text-gray-600"
+              className="h-6 w-6 text-[#002169]"
             >
               <path
                 strokeLinecap="round"
@@ -42,7 +42,7 @@ const Accordion = () => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="h-6 w-6 text-gray-600"
+                className="h-6 w-6 text-[#002169]"
             >
               <path
                 strokeLinecap="round"
@@ -59,7 +59,7 @@ const Accordion = () => {
             <div className="flex pt-12 md:pt-0 md:justify-normal justify-center md:text-start text-center">
               <h1 className="text-base md:text-lg w-[176px] text-[#002169] font-bold tracking-widest px-5 md:pt-0 pt-5">İNŞAAT MÜHENDİSLİĞİ</h1>
             </div>
-            <div className="relative w-[350px] md:w-[200px] lg:w-[255px] overflow-hidden pt-3">
+            <div className="relative w-[150px] md:w-[200px] lg:w-[255px] overflow-hidden pt-3">
               <input type="checkbox"
                 className="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer"
               />
