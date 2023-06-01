@@ -1,8 +1,10 @@
 "use client";
+import React, { useState } from "react";
 import Navbar from "../(components)/Navbar";
-import Accordion from "../(components)/Accordion";
+import Accordion from "../(components)/AccordionInsaat";
 
 const Bolumler = () => {
+    
     return (
         <>
             <Navbar url={"/muhendislik"} color={"[#F5333F]"} bolum={"MÜHENDİSLİK FAKÜLTESİ"} />
