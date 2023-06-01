@@ -2,7 +2,7 @@ import React from "react";
 
 const Lisans = () => {
   return (
-    <div className="flex flex-col space-y-6 px-3 md:px-6 lg:px-12">
+    <div className="flex flex-col space-y-6 px-3 md:pl-12 2xl:pl-24">
       <div className="">
         <h1 className="text-lg md:text-2xl lg:text-3xl font-bold">1. Dönem</h1>
         <div className="overflow-x-auto pt-6">
