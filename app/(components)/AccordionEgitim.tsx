@@ -11,7 +11,7 @@ const AccordionEgitim = () => {
     return (
         <div className="relative">
             <button
-                className="fixed top-14 left-0 md:hidden lg:hidden z-50 bg-gray-200 rounded-full p-2 focus:outline-none"
+                className="fixed top-9 left-0 md:hidden lg:hidden z-50 bg-gray-200 rounded-full p-2 focus:outline-none"
                 onClick={toggleSidebar}
             >
                 {isOpen ? (
