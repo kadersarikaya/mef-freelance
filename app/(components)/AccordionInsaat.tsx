@@ -5,29 +5,59 @@ import Lisans from "./Lisans";
 
 const Accordion = () => {
   const [content, setContent] = useState<ReactNode | null>(null);
-  const [onClickMenu, setOnClickMenu] = useState<boolean>(true);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
+  };
 
   const handleAccordionClick = (selectedContent: ReactNode) => {
     setContent(selectedContent);
   };
   return (
     <>
-      <div className="" >
-        <button className="bg-gray-200 rounded-sm p-2 block fixed md:hidden lg:hidden left-0" onClick={() => setOnClickMenu(!onClickMenu)}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
-          </svg>
+      <div className="relative" >
+        <button
+          className="fixed top-16 left-4 md:hidden lg:hidden z-50 bg-gray-200 rounded-full p-2 focus:outline-none"
+          onClick={toggleSidebar}
+        >
+          {isOpen ? (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              className="h-6 w-6 text-gray-600"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              className="h-6 w-6 text-gray-600"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          )}
         </button>
-        {onClickMenu && (
-          <div className="fixed top-8 duration-300 md:relative md:top-auto md:left-auto md:h-auto left-0 h-full bg-white z-10">
-            <div className="flex pt-6 justify-between">
-              <h1 className="text-base md:text-lg w-[176px] text-[#002169] font-bold tracking-widest px-5 pt-5">İNŞAAT MÜHENDİSLİĞİ</h1>
-              <button className="px-5 block md:hidden lg:hidden" onClick={
-                () => setOnClickMenu(!onClickMenu)} >
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
+       
+        <div className={`${isOpen ? "translate-x-0" : "md:translate-x-0 -translate-x-full"
+          } transition-transform duration-300 ease-in-out fixed md:relative md:top-auto md:left-auto md:h-auto top-0 left-0 h-screen bg-white md:shadow-none shadow-lg z-40`}>
+            <div className="flex pt-12 md:pt-0 md:justify-normal justify-center md:text-start text-center">
+              <h1 className="text-base md:text-lg w-[176px] text-[#002169] font-bold tracking-widest px-5 md:pt-0 pt-5">İNŞAAT MÜHENDİSLİĞİ</h1>
             </div>
             <div className="relative w-[350px] md:w-[200px] lg:w-[255px] overflow-hidden pt-3">
               <input type="checkbox"
@@ -175,7 +205,12 @@ const Accordion = () => {
                 </h1>
               </div>
             </div>
-          </div>
+        </div>
+        {isOpen && (
+          <div
+            className="fixed top-0 md:bg-white md:opacity-100 left-0 h-screen w-screen bg-black opacity-25 z-30"
+            onClick={toggleSidebar}
+          />
         )}
       </div>
       {content}
