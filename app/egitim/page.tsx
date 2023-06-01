@@ -8,12 +8,12 @@ const page = () => {
   return (
     <>
       <Navbar url={"/egitim"} color={"#0097CE"} bolum={"EĞİTİM FAKÜLTESİ"} />
-      <div className="md:px-24 px-3 py-14 md:py-20">
-        <div className="flex space-x-6 md:space-x-12 lg:space-x-24 justify-between">
+      <div className=" xl:px-24 px-3 py-14 md:py-20">
+        <div className="flex md:space-x-12 lg:space-x-24 justify-between">
             <AccordionEgitim />
           <div>
-            <div className="flex justify-center">
-              <div className="py-16 px-12 bg-[#E2E7FF80] -mt-20 w-full bg-cover bg-center">
+            <div className="flex justify-end">
+              <div className="py-16 px-12 w-full bg-[#E2E7FF80] -mt-20 bg-cover bg-center">
                 <h1 className="pb-5 text-start text-lg md:text-xl xl:text-3xl text-[#2E2E2E] font-bold">MEZUNLARIMIZIN ÇALIŞTIĞI KURUMLAR</h1>
                 <div className="flex flex-col lg:flex-row lg:space-x-7 justify-between text-[#000A1F] text-base xl:text-lg">
                     <ul className="list-disc">

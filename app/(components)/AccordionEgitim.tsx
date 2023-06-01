@@ -5,14 +5,14 @@ const AccordionEgitim = () => {
     const [onClickMenu, setOnClickMenu] = useState<boolean>(true);
   return (
     <div className="">
-        <button className="bg-gray-200 rounded-sm p-2 block md:hidden lg:hidden left-0 absolute" onClick={() => setOnClickMenu(!onClickMenu)}>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+        <button className="bg-gray-200 rounded-sm p-1 fixed block md:hidden lg:hidden left-0 " onClick={() => setOnClickMenu(!onClickMenu)}>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
             </svg>
         </button>
         {onClickMenu && (
-        <div className="fixed top-10 duration-300 md:relative md:top-auto md:left-auto md:h-auto left-0 h-full bg-white z-10">
-            <div className="flex justify-between">
+        <div className="fixed top-8 duration-300 md:relative md:top-auto md:left-auto md:h-auto left-0 h-full bg-white z-10">
+            <div className="flex pt-6 justify-between">
                 <h1 className="text-base md:text-lg w-[176px] text-[#002169] font-bold tracking-widest px-5 pt-5">İNGİLİZCE
                 ÖĞRETMENLİĞİ</h1>
                 <button className="px-5 block md:hidden lg:hidden" 
