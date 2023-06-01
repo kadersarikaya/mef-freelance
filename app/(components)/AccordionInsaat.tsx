@@ -2,6 +2,7 @@
 import React, { useState, ReactNode } from "react";
 import Team from "./Team";
 import Lisans from "./Lisans";
+import Arastirma from "./Arastirma";
 
 const Accordion = () => {
   const [content, setContent] = useState<ReactNode | null>(null);
@@ -175,11 +176,11 @@ const Accordion = () => {
                 </h1>
               </div>
             </div>
-            <div className="relative w-[350px] md:w-[200px] lg:w-[255px] overflow-hidden ">
+            <div onClick={() => handleAccordionClick(<Arastirma />)} className="relative w-[350px] md:w-[200px] lg:w-[255px] overflow-hidden ">
               <input type="checkbox"
                 className="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer"
               />
-              <div className="peer-checked:bg-[#002169] h-12 text-[#2D2A26] peer-checked:text-white border-b px-5 py-3 w-full pl-5 flex items-center">
+             <div className="peer-checked:bg-[#002169] h-12 text-[#2D2A26] peer-checked:text-white border-b px-5 py-3 w-full pl-5 flex items-center">
                 <h1 className="font-medium  text-sm ">
                   Araştırma Alanları
                 </h1>
