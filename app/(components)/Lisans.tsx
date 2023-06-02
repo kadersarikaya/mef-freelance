@@ -8,49 +8,49 @@ const Lisans = () => {
         <div className="overflow-x-auto pt-6">
           <table className="table-fixed border w-full border-collapse border-1 border-gray-200">
             <thead>
-              <tr className="bg-[#F9F9F9] text-[#333] text-base font-semibold" >
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Ders No</th>
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Ders Adı</th>
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Tipi</th>
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Kredi</th>
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Koşullar</th>
+              <tr className="bg-[#F9F9F9] text-[#333] text-sm md:text-base font-semibold" >
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Ders No</th>
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Ders Adı</th>
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Tipi</th>
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Kredi</th>
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Koşullar</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
             </tbody>
           </table>
@@ -61,49 +61,49 @@ const Lisans = () => {
         <div className="overflow-x-auto pt-6">
           <table className="table-fixed border w-full border-collapse border-1 border-gray-200">
             <thead>
-              <tr className="bg-[#F9F9F9] text-[#333] text-base font-semibold" >
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Ders No</th>
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Ders Adı</th>
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Tipi</th>
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Kredi</th>
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Koşullar</th>
+              <tr className="bg-[#F9F9F9] text-[#333] text-sm md:text-base font-semibold" >
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Ders No</th>
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Ders Adı</th>
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Tipi</th>
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Kredi</th>
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Koşullar</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
             </tbody>
           </table>
@@ -114,49 +114,49 @@ const Lisans = () => {
         <div className="overflow-x-auto pt-6">
           <table className="table-fixed border w-full border-collapse border-1 border-gray-200">
             <thead>
-              <tr className="bg-[#F9F9F9] text-[#333] text-base font-semibold" >
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Ders No</th>
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Ders Adı</th>
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Tipi</th>
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Kredi</th>
-                <th className="border border-gray-200 p-3 md:p-2 text-start">Koşullar</th>
+              <tr className="bg-[#F9F9F9] text-[#333] text-sm md:text-base font-semibold" >
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Ders No</th>
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Ders Adı</th>
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Tipi</th>
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Kredi</th>
+                <th className="border border-gray-200 p-1 md:p-2 text-start">Koşullar</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
               <tr>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">ACWR 101</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">Ortak Çekirdek</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">3</td>
-                <td className="border border-gray-200 p-3 md:p-2 text-sm md:text-base font-semibold">-</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">ACWR 101</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Temel Akademik Yazı Teknikleri</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">Ortak Çekirdek</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">3</td>
+                <td className="border border-gray-200 p-1 md:p-2 text-xs md:text-base font-semibold">-</td>
               </tr>
             </tbody>
           </table>
