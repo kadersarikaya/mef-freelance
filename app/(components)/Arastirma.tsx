@@ -3,8 +3,8 @@ import React from "react";
 const Arastirma = () => {
   return <div className="flex w-full px-3 md:pl-14 2xl:pl-28 flex-col space-y-6">
     <div className="">
-      <h1 className="text-lg md:text-2xl lg:text-3xl font-bold">Araştırma Alanları</h1>
-      <p className="py-6 text-base" >İnşaat Mühendisliği Bölümü Araştırma Alanları</p>
+      <h1 className="text-lg md:text-2xl text-[#2E2E2E] lg:text-3xl font-bold">Araştırma Alanları</h1>
+      <p className="py-6 text-base text-[#343432]">İnşaat Mühendisliği Bölümü Araştırma Alanları</p>
       <div className="flex flex-col space-y-6">
         <div className="overflow-x-auto">
           <ul className="w-full border rounded-md md:rounded-lg lg:rounded-2xl text-[#333333] text-base font-semibold">
